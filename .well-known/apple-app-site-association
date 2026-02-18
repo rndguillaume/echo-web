@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TEAM_ID.com.echo.smilesinmind"
+        ],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Invitation deep links"
+          }
+        ]
+      }
+    ]
+  }
+}

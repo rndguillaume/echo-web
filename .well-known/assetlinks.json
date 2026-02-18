@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.echo.smilesinmind",
+      "sha256_cert_fingerprints": [
+        "57:31:54:D9:10:58:1F:DD:D2:43:0A:A1:D6:37:06:22:27:6F:75:22:74:A6:24:89:5A:3D:E1:29:F5:9D:B3:3D"
+      ]
+    }
+  }
+]
