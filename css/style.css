@@ -34,11 +34,11 @@
   --muted: #8C7F74;
 }
 
-/* ===== THEME TOGGLE ===== */
-.theme-toggle {
+/* ===== TOOLBAR BUTTONS ===== */
+.theme-toggle,
+.lang-toggle {
   position: fixed;
   top: 20px;
-  right: 20px;
   z-index: 100;
   background: var(--surface);
   color: var(--text);
@@ -53,9 +53,17 @@
   transition: background 0.3s, color 0.3s;
 }
 
-.theme-toggle:hover {
+.theme-toggle { right: 20px; }
+.lang-toggle  { right: 74px; font-size: 20px; }
+
+.theme-toggle:hover,
+.lang-toggle:hover {
   background: var(--surface-secondary);
 }
+
+/* ===== LANGUAGE VISIBILITY ===== */
+[data-lang="en"] .lang-fr { display: none; }
+[data-lang="fr"] .lang-en { display: none; }
 
 /* ===== RESET ===== */
 * {

@@ -9,202 +9,393 @@
 </head>
 <body>
 
+<button class="lang-toggle" aria-label="Toggle language"></button>
 <button class="theme-toggle" aria-label="Toggle theme"></button>
 
 <div class="legal">
   <div style="text-align:center; margin-bottom:40px;">
     <img src="images/icon-cloud.png" alt="Echo" width="180">
   </div>
-  <h1>Privacy Policy for Echo</h1>
-  <p><em>Last Updated: February 17, 2026</em></p>
 
-  <h2>Introduction</h2>
-  <p>This Privacy Policy describes how Echo ("we", "us", or "our") collects, uses, and shares information when you use our mobile application (the "App"). We are committed to protecting your privacy and being transparent about our data practices.</p>
+  <!-- ===== ENGLISH ===== -->
+  <div class="lang-en">
+    <h1>Privacy Policy for Echo</h1>
+    <p><em>Last Updated: February 17, 2026</em></p>
 
-  <h2>Information we collect</h2>
+    <h2>Introduction</h2>
+    <p>This Privacy Policy describes how Echo ("we", "us", or "our") collects, uses, and shares information when you use our mobile application (the "App"). We are committed to protecting your privacy and being transparent about our data practices.</p>
 
-  <h3>1. Information you provide directly</h3>
-  <p>When you create an account and use the App, we collect:</p>
-  <ul>
-    <li><strong>Account information:</strong> Name, email address, and profile photo</li>
-    <li><strong>Authentication method:</strong> Email/password or Google Sign-In credentials</li>
-    <li><strong>Souvenirs:</strong> Text, author name, context, date, city, and venue name</li>
-    <li><strong>Groups:</strong> Group name, description, cover image, and membership</li>
-    <li><strong>Favorites:</strong> Souvenirs and community quotes you like</li>
-    <li><strong>Badges:</strong> Activity-based achievements tracked automatically</li>
-  </ul>
+    <h2>Information we collect</h2>
 
-  <h3>2. Information automatically collected</h3>
-  <ul>
-    <li><strong>Device information:</strong> Platform (iOS/Android), operating system version, and app version</li>
-    <li><strong>Usage analytics:</strong> How you interact with the App, collected through PostHog analytics</li>
-    <li><strong>Session recordings:</strong> PostHog may record user sessions to help us improve the app experience</li>
-    <li><strong>Purchase information:</strong> Subscription and payment data processed through RevenueCat and Apple/Google's payment systems</li>
-  </ul>
+    <h3>1. Information you provide directly</h3>
+    <p>When you create an account and use the App, we collect:</p>
+    <ul>
+      <li><strong>Account information:</strong> Name, email address, and profile photo</li>
+      <li><strong>Authentication method:</strong> Email/password or Google Sign-In credentials</li>
+      <li><strong>Souvenirs:</strong> Text, author name, context, date, city, and venue name</li>
+      <li><strong>Groups:</strong> Group name, description, cover image, and membership</li>
+      <li><strong>Favorites:</strong> Souvenirs and community quotes you like</li>
+      <li><strong>Badges:</strong> Activity-based achievements tracked automatically</li>
+    </ul>
 
-  <h3>3. Information stored locally on your device</h3>
-  <p>The following data is stored only on your device and is not transmitted to our servers:</p>
-  <ul>
-    <li>Theme preference (light, dark, or system)</li>
-    <li>Language preference (French or English)</li>
-    <li>Guest activity (community quote likes before account creation)</li>
-  </ul>
+    <h3>2. Information automatically collected</h3>
+    <ul>
+      <li><strong>Device information:</strong> Platform (iOS/Android), operating system version, and app version</li>
+      <li><strong>Usage analytics:</strong> How you interact with the App, collected through PostHog analytics</li>
+      <li><strong>Session recordings:</strong> PostHog may record user sessions to help us improve the app experience</li>
+      <li><strong>Purchase information:</strong> Subscription and payment data processed through RevenueCat and Apple/Google's payment systems</li>
+    </ul>
 
-  <h2>How we use your information</h2>
-  <p>We use the collected information for the following purposes:</p>
-  <ul>
-    <li><strong>Service delivery:</strong> To store and display your souvenirs, manage groups, and deliver community quotes</li>
-    <li><strong>Authentication:</strong> To verify your identity and secure your account</li>
-    <li><strong>Group features:</strong> To enable sharing souvenirs with group members and managing membership via invitation codes</li>
-    <li><strong>App improvement:</strong> To analyze usage patterns and improve app functionality, design, and user experience</li>
-    <li><strong>Subscription management:</strong> To process and manage your premium subscription</li>
-    <li><strong>Communication:</strong> To send email confirmations for account changes (email change, password reset)</li>
-  </ul>
-  <p>We do not use your data for advertising, profiling, or any purpose unrelated to the Service.</p>
+    <h3>3. Information stored locally on your device</h3>
+    <p>The following data is stored only on your device and is not transmitted to our servers:</p>
+    <ul>
+      <li>Theme preference (light, dark, or system)</li>
+      <li>Language preference (French or English)</li>
+      <li>Guest activity (community quote likes before account creation)</li>
+    </ul>
 
-  <h2>Third-party services</h2>
-  <p>We use the following third-party services that may collect information:</p>
+    <h2>How we use your information</h2>
+    <p>We use the collected information for the following purposes:</p>
+    <ul>
+      <li><strong>Service delivery:</strong> To store and display your souvenirs, manage groups, and deliver community quotes</li>
+      <li><strong>Authentication:</strong> To verify your identity and secure your account</li>
+      <li><strong>Group features:</strong> To enable sharing souvenirs with group members and managing membership via invitation codes</li>
+      <li><strong>App improvement:</strong> To analyze usage patterns and improve app functionality, design, and user experience</li>
+      <li><strong>Subscription management:</strong> To process and manage your premium subscription</li>
+      <li><strong>Communication:</strong> To send email confirmations for account changes (email change, password reset)</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, or any purpose unrelated to the Service.</p>
 
-  <h3>RevenueCat</h3>
-  <ul>
-    <li><strong>Purpose:</strong> Subscription and payment processing</li>
-    <li><strong>Data shared:</strong> User identifier, purchase information, subscription status</li>
-    <li><strong>Privacy policy:</strong> <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
-  </ul>
+    <h2>Third-party services</h2>
+    <p>We use the following third-party services that may collect information:</p>
 
-  <h3>Supabase</h3>
-  <ul>
-    <li><strong>Purpose:</strong> Authentication, database, and file storage</li>
-    <li><strong>Data shared:</strong> Account data, souvenirs, group data, and uploaded images</li>
-    <li><strong>Privacy policy:</strong> <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
-  </ul>
+    <h3>RevenueCat</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Subscription and payment processing</li>
+      <li><strong>Data shared:</strong> User identifier, purchase information, subscription status</li>
+      <li><strong>Privacy policy:</strong> <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
+    </ul>
 
-  <h3>PostHog</h3>
-  <ul>
-    <li><strong>Purpose:</strong> Product analytics and session recording</li>
-    <li><strong>Data shared:</strong> Anonymous usage events, user interactions, session replays, device information</li>
-    <li><strong>Privacy policy:</strong> <a href="https://posthog.com/privacy">posthog.com/privacy</a></li>
-  </ul>
+    <h3>Supabase</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Authentication, database, and file storage</li>
+      <li><strong>Data shared:</strong> Account data, souvenirs, group data, and uploaded images</li>
+      <li><strong>Privacy policy:</strong> <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+    </ul>
 
-  <h3>Google</h3>
-  <ul>
-    <li><strong>Purpose:</strong> Sign-In (optional)</li>
-    <li><strong>Data shared:</strong> Email and name (via OAuth), only when using Google Sign-In</li>
-    <li><strong>Privacy policy:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
-  </ul>
+    <h3>PostHog</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Product analytics and session recording</li>
+      <li><strong>Data shared:</strong> Anonymous usage events, user interactions, session replays, device information</li>
+      <li><strong>Privacy policy:</strong> <a href="https://posthog.com/privacy">posthog.com/privacy</a></li>
+    </ul>
 
-  <h3>Apple App Store / Google Play Store</h3>
-  <ul>
-    <li><strong>Purpose:</strong> App distribution and payment processing for subscriptions</li>
-    <li><strong>Data shared:</strong> Payment information, purchase history (handled directly by Apple/Google)</li>
-  </ul>
+    <h3>Google</h3>
+    <ul>
+      <li><strong>Purpose:</strong> Sign-In (optional)</li>
+      <li><strong>Data shared:</strong> Email and name (via OAuth), only when using Google Sign-In</li>
+      <li><strong>Privacy policy:</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    </ul>
 
-  <h2>Data sharing with other users</h2>
-  <ul>
-    <li>Your display name and profile photo are visible to members of groups you belong to.</li>
-    <li>Souvenirs added to a group are visible to all members of that group.</li>
-    <li>Personal souvenirs are private and visible only to you.</li>
-  </ul>
-  <p>We never sell your personal data to third parties, share your data with advertisers, use your content to train AI models, or transfer your data to data brokers.</p>
+    <h3>Apple App Store / Google Play Store</h3>
+    <ul>
+      <li><strong>Purpose:</strong> App distribution and payment processing for subscriptions</li>
+      <li><strong>Data shared:</strong> Payment information, purchase history (handled directly by Apple/Google)</li>
+    </ul>
 
-  <h2>Data retention</h2>
-  <p><strong>Account data:</strong> We retain your data for as long as your account is active. You can request deletion at any time.</p>
-  <p><strong>Account deletion:</strong> When you delete your account, the following occurs immediately:</p>
-  <ul>
-    <li>Your profile (name, email, avatar) is permanently deleted</li>
-    <li>Your personal souvenirs are permanently deleted</li>
-    <li>Your uploaded images (avatars, group images) are deleted from storage</li>
-    <li>Your group memberships are removed</li>
-    <li>Group ownership is transferred to another admin (if applicable)</li>
-    <li>Group souvenirs you authored may be retained in anonymized form for the group's continuity</li>
-  </ul>
-  <p><strong>Subscription data:</strong> RevenueCat retains anonymized transaction records as required by Apple and Google for purchase verification and refund processing.</p>
-  <p><strong>Analytics data:</strong> Analytics data is retained according to PostHog's policies (typically 90 days to 1 year).</p>
-  <p><strong>Invitation codes:</strong> Expire automatically after 7 days and are then deleted.</p>
-  <p><strong>Local data:</strong> Data stored on your device remains until you uninstall the app or clear app data.</p>
+    <h2>Data sharing with other users</h2>
+    <ul>
+      <li>Your display name and profile photo are visible to members of groups you belong to.</li>
+      <li>Souvenirs added to a group are visible to all members of that group.</li>
+      <li>Personal souvenirs are private and visible only to you.</li>
+    </ul>
+    <p>We never sell your personal data to third parties, share your data with advertisers, use your content to train AI models, or transfer your data to data brokers.</p>
 
-  <h2>Data security</h2>
-  <p>We implement appropriate technical and organizational measures to protect your personal information, including:</p>
-  <ul>
-    <li>Encrypted connections (HTTPS/TLS) for all data transmission</li>
-    <li>Row Level Security (RLS) on our database — users can only access their own data and data from groups they belong to</li>
-    <li>Passwords hashed using industry-standard algorithms (bcrypt) — never stored in plain text</li>
-    <li>Access-controlled file storage for avatars and group images</li>
-    <li>Secure authentication token storage on your device</li>
-    <li>Group invitation codes that are randomly generated and time-limited (7 days)</li>
-  </ul>
-  <p>However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+    <h2>Data retention</h2>
+    <p><strong>Account data:</strong> We retain your data for as long as your account is active. You can request deletion at any time.</p>
+    <p><strong>Account deletion:</strong> When you delete your account, the following occurs immediately:</p>
+    <ul>
+      <li>Your profile (name, email, avatar) is permanently deleted</li>
+      <li>Your personal souvenirs are permanently deleted</li>
+      <li>Your uploaded images (avatars, group images) are deleted from storage</li>
+      <li>Your group memberships are removed</li>
+      <li>Group ownership is transferred to another admin (if applicable)</li>
+      <li>Group souvenirs you authored may be retained in anonymized form for the group's continuity</li>
+    </ul>
+    <p><strong>Subscription data:</strong> RevenueCat retains anonymized transaction records as required by Apple and Google for purchase verification and refund processing.</p>
+    <p><strong>Analytics data:</strong> Analytics data is retained according to PostHog's policies (typically 90 days to 1 year).</p>
+    <p><strong>Invitation codes:</strong> Expire automatically after 7 days and are then deleted.</p>
+    <p><strong>Local data:</strong> Data stored on your device remains until you uninstall the app or clear app data.</p>
 
-  <h2>Your privacy rights</h2>
-  <p>Depending on your location, you may have the following rights:</p>
-  <ul>
-    <li><strong>Access:</strong> Request a copy of the personal data we hold about you, or view it directly in the App (profile, souvenirs, groups)</li>
-    <li><strong>Correction:</strong> Edit your name, email, and avatar from the Profile screen</li>
-    <li><strong>Deletion:</strong> Delete your account from Settings > Delete Account</li>
-    <li><strong>Portability:</strong> Request your data in a portable format</li>
-    <li><strong>Opt-out:</strong> Opt out of analytics by contacting us</li>
-    <li><strong>Withdraw consent:</strong> Delete your account at any time from the App</li>
-  </ul>
-  <p>To exercise these rights, please contact us at the email address provided below.</p>
+    <h2>Data security</h2>
+    <p>We implement appropriate technical and organizational measures to protect your personal information, including:</p>
+    <ul>
+      <li>Encrypted connections (HTTPS/TLS) for all data transmission</li>
+      <li>Row Level Security (RLS) on our database — users can only access their own data and data from groups they belong to</li>
+      <li>Passwords hashed using industry-standard algorithms (bcrypt) — never stored in plain text</li>
+      <li>Access-controlled file storage for avatars and group images</li>
+      <li>Secure authentication token storage on your device</li>
+      <li>Group invitation codes that are randomly generated and time-limited (7 days)</li>
+    </ul>
+    <p>However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
 
-  <h2>Children's privacy</h2>
-  <p>The App is not intended for children under the age of 16 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.</p>
+    <h2>Your privacy rights</h2>
+    <p>Depending on your location, you may have the following rights:</p>
+    <ul>
+      <li><strong>Access:</strong> Request a copy of the personal data we hold about you, or view it directly in the App (profile, souvenirs, groups)</li>
+      <li><strong>Correction:</strong> Edit your name, email, and avatar from the Profile screen</li>
+      <li><strong>Deletion:</strong> Delete your account from Settings > Delete Account</li>
+      <li><strong>Portability:</strong> Request your data in a portable format</li>
+      <li><strong>Opt-out:</strong> Opt out of analytics by contacting us</li>
+      <li><strong>Withdraw consent:</strong> Delete your account at any time from the App</li>
+    </ul>
+    <p>To exercise these rights, please contact us at the email address provided below.</p>
 
-  <h2>Changes to this privacy policy</h2>
-  <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by:</p>
-  <ul>
-    <li>Posting the new Privacy Policy in the App</li>
-    <li>Updating the "Last Updated" date</li>
-    <li>Sending you a notification (if required by law)</li>
-  </ul>
-  <p>Your continued use of the App after changes become effective constitutes acceptance of the revised policy.</p>
+    <h2>Children's privacy</h2>
+    <p>The App is not intended for children under the age of 16 (or the applicable age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately.</p>
 
-  <h2>European Users (GDPR)</h2>
-  <p>As this App is primarily operated from and targeted at users in the European Union, we comply with the General Data Protection Regulation (GDPR).</p>
+    <h2>Changes to this privacy policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by:</p>
+    <ul>
+      <li>Posting the new Privacy Policy in the App</li>
+      <li>Updating the "Last Updated" date</li>
+      <li>Sending you a notification (if required by law)</li>
+    </ul>
+    <p>Your continued use of the App after changes become effective constitutes acceptance of the revised policy.</p>
 
-  <h3>Your GDPR Rights</h3>
-  <p>As an EU resident, you have the following rights:</p>
-  <ul>
-    <li><strong>Right of access</strong> (Article 15): Obtain confirmation of data processing and access to your data</li>
-    <li><strong>Right to rectification</strong> (Article 16): Correct inaccurate or incomplete data</li>
-    <li><strong>Right to erasure</strong> (Article 17): Request deletion of your data ("right to be forgotten")</li>
-    <li><strong>Right to restriction</strong> (Article 18): Limit how we use your data</li>
-    <li><strong>Right to data portability</strong> (Article 20): Receive your data in a structured, machine-readable format</li>
-    <li><strong>Right to object</strong> (Article 21): Object to processing based on legitimate interests</li>
-    <li><strong>Right to withdraw consent:</strong> Withdraw consent at any time without affecting prior processing</li>
-    <li><strong>Right to lodge a complaint:</strong> File a complaint with the CNIL or your local supervisory authority</li>
-  </ul>
+    <h2>European Users (GDPR)</h2>
+    <p>As this App is primarily operated from and targeted at users in the European Union, we comply with the General Data Protection Regulation (GDPR).</p>
 
-  <h3>Data protection authority</h3>
-  <p>For users in France, the supervisory authority is:</p>
-  <p><strong>CNIL</strong> (Commission Nationale de l'Informatique et des Libertés)<br>
-    Website: <a href="https://www.cnil.fr">www.cnil.fr</a><br>
-    Address: 3 Place de Fontenoy, TSA 80715, 75334 PARIS CEDEX 07, France</p>
+    <h3>Your GDPR Rights</h3>
+    <p>As an EU resident, you have the following rights:</p>
+    <ul>
+      <li><strong>Right of access</strong> (Article 15): Obtain confirmation of data processing and access to your data</li>
+      <li><strong>Right to rectification</strong> (Article 16): Correct inaccurate or incomplete data</li>
+      <li><strong>Right to erasure</strong> (Article 17): Request deletion of your data ("right to be forgotten")</li>
+      <li><strong>Right to restriction</strong> (Article 18): Limit how we use your data</li>
+      <li><strong>Right to data portability</strong> (Article 20): Receive your data in a structured, machine-readable format</li>
+      <li><strong>Right to object</strong> (Article 21): Object to processing based on legitimate interests</li>
+      <li><strong>Right to withdraw consent:</strong> Withdraw consent at any time without affecting prior processing</li>
+      <li><strong>Right to lodge a complaint:</strong> File a complaint with the CNIL or your local supervisory authority</li>
+    </ul>
 
-  <h2>Cookie policy</h2>
-  <p>The App does not use cookies. However, our third-party analytics provider (PostHog) may use similar technologies for analytics purposes. RevenueCat stores subscription status locally to provide offline access to premium features. You can control these through your device settings.</p>
+    <h3>Data protection authority</h3>
+    <p>For users in France, the supervisory authority is:</p>
+    <p><strong>CNIL</strong> (Commission Nationale de l'Informatique et des Libertés)<br>
+      Website: <a href="https://www.cnil.fr">www.cnil.fr</a><br>
+      Address: 3 Place de Fontenoy, TSA 80715, 75334 PARIS CEDEX 07, France</p>
 
-  <h2>Contact us</h2>
-  <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, including exercising your GDPR rights, please contact us at:</p>
-  <p>
-    <strong>Email:</strong> renaudcorp@gmail.com<br>
-    <strong>Developer:</strong> Guillaume Renaud<br>
-    <strong>App:</strong> Echo — Save your best moments<br>
-    <strong>Location:</strong> France
-  </p>
-  <p>For GDPR-related requests, please clearly indicate "GDPR Request" in your subject line and specify which right you wish to exercise. We will respond within one month of receipt of your request, as required by GDPR.</p>
-  <p>By using the Echo app, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and sharing of your information as described herein.</p>
+    <h2>Cookie policy</h2>
+    <p>The App does not use cookies. However, our third-party analytics provider (PostHog) may use similar technologies for analytics purposes. RevenueCat stores subscription status locally to provide offline access to premium features. You can control these through your device settings.</p>
+
+    <h2>Contact us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, including exercising your GDPR rights, please contact us at:</p>
+    <p>
+      <strong>Email:</strong> renaudcorp@gmail.com<br>
+      <strong>Developer:</strong> Guillaume Renaud<br>
+      <strong>App:</strong> Echo — Save your best moments<br>
+      <strong>Location:</strong> France
+    </p>
+    <p>For GDPR-related requests, please clearly indicate "GDPR Request" in your subject line and specify which right you wish to exercise. We will respond within one month of receipt of your request, as required by GDPR.</p>
+    <p>By using the Echo app, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and sharing of your information as described herein.</p>
+  </div>
+
+  <!-- ===== FRANÇAIS ===== -->
+  <div class="lang-fr">
+    <h1>Politique de confidentialité d'Echo</h1>
+    <p><em>Dernière mise à jour : 17 février 2026</em></p>
+
+    <h2>Introduction</h2>
+    <p>Cette Politique de confidentialité décrit comment Echo (« nous », « notre ») collecte, utilise et partage les informations lorsque vous utilisez notre application mobile (l'« Application »). Nous nous engageons à protéger votre vie privée et à être transparents sur nos pratiques en matière de données.</p>
+
+    <h2>Informations que nous collectons</h2>
+
+    <h3>1. Informations que vous fournissez directement</h3>
+    <p>Lorsque vous créez un compte et utilisez l'Application, nous collectons :</p>
+    <ul>
+      <li><strong>Informations du compte :</strong> Nom, adresse e-mail et photo de profil</li>
+      <li><strong>Méthode d'authentification :</strong> E-mail/mot de passe ou identifiants Google Sign-In</li>
+      <li><strong>Souvenirs :</strong> Texte, nom de l'auteur, contexte, date, ville et nom du lieu</li>
+      <li><strong>Groupes :</strong> Nom du groupe, description, image de couverture et adhésion</li>
+      <li><strong>Favoris :</strong> Souvenirs et citations communautaires que vous aimez</li>
+      <li><strong>Badges :</strong> Réalisations basées sur l'activité, suivies automatiquement</li>
+    </ul>
+
+    <h3>2. Informations collectées automatiquement</h3>
+    <ul>
+      <li><strong>Informations sur l'appareil :</strong> Plateforme (iOS/Android), version du système d'exploitation et version de l'application</li>
+      <li><strong>Analyses d'utilisation :</strong> Comment vous interagissez avec l'Application, collectées via PostHog</li>
+      <li><strong>Enregistrements de session :</strong> PostHog peut enregistrer les sessions utilisateur pour nous aider à améliorer l'expérience</li>
+      <li><strong>Informations d'achat :</strong> Données d'abonnement et de paiement traitées par RevenueCat et les systèmes de paiement Apple/Google</li>
+    </ul>
+
+    <h3>3. Informations stockées localement sur votre appareil</h3>
+    <p>Les données suivantes sont stockées uniquement sur votre appareil et ne sont pas transmises à nos serveurs :</p>
+    <ul>
+      <li>Préférence de thème (clair, sombre ou système)</li>
+      <li>Préférence de langue (français ou anglais)</li>
+      <li>Activité invité (likes de citations communautaires avant la création du compte)</li>
+    </ul>
+
+    <h2>Comment nous utilisons vos informations</h2>
+    <p>Nous utilisons les informations collectées aux fins suivantes :</p>
+    <ul>
+      <li><strong>Fourniture du service :</strong> Pour stocker et afficher vos souvenirs, gérer les groupes et diffuser les citations communautaires</li>
+      <li><strong>Authentification :</strong> Pour vérifier votre identité et sécuriser votre compte</li>
+      <li><strong>Fonctionnalités de groupe :</strong> Pour permettre le partage de souvenirs avec les membres du groupe et la gestion des adhésions via des codes d'invitation</li>
+      <li><strong>Amélioration de l'application :</strong> Pour analyser les schémas d'utilisation et améliorer les fonctionnalités, le design et l'expérience utilisateur</li>
+      <li><strong>Gestion des abonnements :</strong> Pour traiter et gérer votre abonnement premium</li>
+      <li><strong>Communication :</strong> Pour envoyer des confirmations par e-mail lors de modifications de compte (changement d'e-mail, réinitialisation du mot de passe)</li>
+    </ul>
+    <p>Nous n'utilisons pas vos données à des fins publicitaires, de profilage ou pour tout objectif non lié au Service.</p>
+
+    <h2>Services tiers</h2>
+    <p>Nous utilisons les services tiers suivants qui peuvent collecter des informations :</p>
+
+    <h3>RevenueCat</h3>
+    <ul>
+      <li><strong>Objectif :</strong> Traitement des abonnements et paiements</li>
+      <li><strong>Données partagées :</strong> Identifiant utilisateur, informations d'achat, statut d'abonnement</li>
+      <li><strong>Politique de confidentialité :</strong> <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></li>
+    </ul>
+
+    <h3>Supabase</h3>
+    <ul>
+      <li><strong>Objectif :</strong> Authentification, base de données et stockage de fichiers</li>
+      <li><strong>Données partagées :</strong> Données de compte, souvenirs, données de groupe et images téléchargées</li>
+      <li><strong>Politique de confidentialité :</strong> <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+    </ul>
+
+    <h3>PostHog</h3>
+    <ul>
+      <li><strong>Objectif :</strong> Analyses produit et enregistrement de sessions</li>
+      <li><strong>Données partagées :</strong> Événements d'utilisation anonymes, interactions utilisateur, replays de sessions, informations sur l'appareil</li>
+      <li><strong>Politique de confidentialité :</strong> <a href="https://posthog.com/privacy">posthog.com/privacy</a></li>
+    </ul>
+
+    <h3>Google</h3>
+    <ul>
+      <li><strong>Objectif :</strong> Connexion (optionnel)</li>
+      <li><strong>Données partagées :</strong> E-mail et nom (via OAuth), uniquement lors de l'utilisation de Google Sign-In</li>
+      <li><strong>Politique de confidentialité :</strong> <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>Apple App Store / Google Play Store</h3>
+    <ul>
+      <li><strong>Objectif :</strong> Distribution de l'application et traitement des paiements pour les abonnements</li>
+      <li><strong>Données partagées :</strong> Informations de paiement, historique d'achat (gérés directement par Apple/Google)</li>
+    </ul>
+
+    <h2>Partage de données avec d'autres utilisateurs</h2>
+    <ul>
+      <li>Votre nom d'affichage et votre photo de profil sont visibles par les membres des groupes auxquels vous appartenez.</li>
+      <li>Les souvenirs ajoutés à un groupe sont visibles par tous les membres de ce groupe.</li>
+      <li>Les souvenirs personnels sont privés et visibles uniquement par vous.</li>
+    </ul>
+    <p>Nous ne vendons jamais vos données personnelles à des tiers, ne partageons pas vos données avec des annonceurs, n'utilisons pas votre contenu pour entraîner des modèles d'IA et ne transférons pas vos données à des courtiers en données.</p>
+
+    <h2>Conservation des données</h2>
+    <p><strong>Données du compte :</strong> Nous conservons vos données tant que votre compte est actif. Vous pouvez demander la suppression à tout moment.</p>
+    <p><strong>Suppression du compte :</strong> Lorsque vous supprimez votre compte, les actions suivantes sont effectuées immédiatement :</p>
+    <ul>
+      <li>Votre profil (nom, e-mail, avatar) est définitivement supprimé</li>
+      <li>Vos souvenirs personnels sont définitivement supprimés</li>
+      <li>Vos images téléchargées (avatars, images de groupe) sont supprimées du stockage</li>
+      <li>Vos adhésions aux groupes sont supprimées</li>
+      <li>La propriété du groupe est transférée à un autre administrateur (le cas échéant)</li>
+      <li>Les souvenirs de groupe dont vous êtes l'auteur peuvent être conservés sous forme anonymisée pour la continuité du groupe</li>
+    </ul>
+    <p><strong>Données d'abonnement :</strong> RevenueCat conserve des enregistrements de transactions anonymisés comme requis par Apple et Google pour la vérification des achats et le traitement des remboursements.</p>
+    <p><strong>Données analytiques :</strong> Les données analytiques sont conservées selon les politiques de PostHog (généralement 90 jours à 1 an).</p>
+    <p><strong>Codes d'invitation :</strong> Expirent automatiquement après 7 jours puis sont supprimés.</p>
+    <p><strong>Données locales :</strong> Les données stockées sur votre appareil restent jusqu'à la désinstallation de l'application ou l'effacement des données.</p>
+
+    <h2>Sécurité des données</h2>
+    <p>Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles, notamment :</p>
+    <ul>
+      <li>Connexions chiffrées (HTTPS/TLS) pour toute transmission de données</li>
+      <li>Sécurité au niveau des lignes (RLS) sur notre base de données — les utilisateurs ne peuvent accéder qu'à leurs propres données et aux données des groupes auxquels ils appartiennent</li>
+      <li>Mots de passe hachés avec des algorithmes standards (bcrypt) — jamais stockés en clair</li>
+      <li>Stockage de fichiers avec contrôle d'accès pour les avatars et images de groupe</li>
+      <li>Stockage sécurisé des jetons d'authentification sur votre appareil</li>
+      <li>Codes d'invitation de groupe générés aléatoirement et limités dans le temps (7 jours)</li>
+    </ul>
+    <p>Cependant, aucune méthode de transmission sur Internet ou de stockage électronique n'est sécurisée à 100 %, et nous ne pouvons pas garantir une sécurité absolue.</p>
+
+    <h2>Vos droits en matière de confidentialité</h2>
+    <p>Selon votre localisation, vous pouvez disposer des droits suivants :</p>
+    <ul>
+      <li><strong>Accès :</strong> Demander une copie des données personnelles que nous détenons à votre sujet, ou les consulter directement dans l'Application (profil, souvenirs, groupes)</li>
+      <li><strong>Rectification :</strong> Modifier votre nom, e-mail et avatar depuis l'écran Profil</li>
+      <li><strong>Suppression :</strong> Supprimer votre compte depuis Paramètres > Supprimer le compte</li>
+      <li><strong>Portabilité :</strong> Demander vos données dans un format portable</li>
+      <li><strong>Désinscription :</strong> Se désinscrire des analyses en nous contactant</li>
+      <li><strong>Retrait du consentement :</strong> Supprimer votre compte à tout moment depuis l'Application</li>
+    </ul>
+    <p>Pour exercer ces droits, veuillez nous contacter à l'adresse e-mail indiquée ci-dessous.</p>
+
+    <h2>Confidentialité des enfants</h2>
+    <p>L'Application n'est pas destinée aux enfants de moins de 16 ans (ou l'âge applicable du consentement numérique dans votre juridiction). Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si vous pensez que nous avons collecté des informations d'un enfant, veuillez nous contacter immédiatement.</p>
+
+    <h2>Modifications de cette politique de confidentialité</h2>
+    <p>Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre. Nous vous informerons de tout changement important en :</p>
+    <ul>
+      <li>Publiant la nouvelle Politique de confidentialité dans l'Application</li>
+      <li>Mettant à jour la date de « Dernière mise à jour »</li>
+      <li>Vous envoyant une notification (si la loi l'exige)</li>
+    </ul>
+    <p>Votre utilisation continue de l'Application après l'entrée en vigueur des modifications constitue une acceptation de la politique révisée.</p>
+
+    <h2>Utilisateurs européens (RGPD)</h2>
+    <p>Cette Application étant principalement exploitée depuis et destinée aux utilisateurs de l'Union européenne, nous respectons le Règlement Général sur la Protection des Données (RGPD).</p>
+
+    <h3>Vos droits RGPD</h3>
+    <p>En tant que résident de l'UE, vous disposez des droits suivants :</p>
+    <ul>
+      <li><strong>Droit d'accès</strong> (Article 15) : Obtenir la confirmation du traitement des données et l'accès à vos données</li>
+      <li><strong>Droit de rectification</strong> (Article 16) : Corriger des données inexactes ou incomplètes</li>
+      <li><strong>Droit à l'effacement</strong> (Article 17) : Demander la suppression de vos données (« droit à l'oubli »)</li>
+      <li><strong>Droit à la limitation</strong> (Article 18) : Limiter l'utilisation de vos données</li>
+      <li><strong>Droit à la portabilité</strong> (Article 20) : Recevoir vos données dans un format structuré et lisible par machine</li>
+      <li><strong>Droit d'opposition</strong> (Article 21) : S'opposer au traitement fondé sur des intérêts légitimes</li>
+      <li><strong>Droit de retrait du consentement :</strong> Retirer votre consentement à tout moment sans affecter le traitement antérieur</li>
+      <li><strong>Droit de déposer une plainte :</strong> Déposer une plainte auprès de la CNIL ou de votre autorité de contrôle locale</li>
+    </ul>
+
+    <h3>Autorité de protection des données</h3>
+    <p>Pour les utilisateurs en France, l'autorité de contrôle est :</p>
+    <p><strong>CNIL</strong> (Commission Nationale de l'Informatique et des Libertés)<br>
+      Site web : <a href="https://www.cnil.fr">www.cnil.fr</a><br>
+      Adresse : 3 Place de Fontenoy, TSA 80715, 75334 PARIS CEDEX 07, France</p>
+
+    <h2>Politique relative aux cookies</h2>
+    <p>L'Application n'utilise pas de cookies. Cependant, notre fournisseur d'analyses tiers (PostHog) peut utiliser des technologies similaires à des fins analytiques. RevenueCat stocke le statut d'abonnement localement pour fournir un accès hors ligne aux fonctionnalités premium. Vous pouvez contrôler cela via les paramètres de votre appareil.</p>
+
+    <h2>Nous contacter</h2>
+    <p>Si vous avez des questions, préoccupations ou demandes concernant cette Politique de confidentialité ou nos pratiques en matière de données, y compris l'exercice de vos droits RGPD, veuillez nous contacter à :</p>
+    <p>
+      <strong>E-mail :</strong> renaudcorp@gmail.com<br>
+      <strong>Développeur :</strong> Guillaume Renaud<br>
+      <strong>Application :</strong> Echo — Gardez vos meilleurs moments<br>
+      <strong>Localisation :</strong> France
+    </p>
+    <p>Pour les demandes liées au RGPD, veuillez indiquer clairement « Demande RGPD » dans l'objet de votre message et préciser le droit que vous souhaitez exercer. Nous répondrons dans un délai d'un mois suivant la réception de votre demande, conformément au RGPD.</p>
+    <p>En utilisant l'application Echo, vous reconnaissez avoir lu et compris cette Politique de confidentialité et acceptez la collecte, l'utilisation et le partage de vos informations comme décrit dans le présent document.</p>
+  </div>
 </div>
 
 <footer>
   <div>
     <p><strong>ECHO</strong> — Smiles in Mind</p>
     <p>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms of Use</a>
+      <a href="privacy.html"><span class="lang-en">Privacy Policy</span><span class="lang-fr">Politique de confidentialité</span></a>
+      <a href="terms.html"><span class="lang-en">Terms of Use</span><span class="lang-fr">Conditions d'utilisation</span></a>
     </p>
   </div>
-  <p>© 2026 Echo. All rights reserved.</p>
+  <p>
+    <span class="lang-en">© 2026 Echo. All rights reserved.</span>
+    <span class="lang-fr">© 2026 Echo. Tous droits réservés.</span>
+  </p>
 </footer>
 
 </body>
