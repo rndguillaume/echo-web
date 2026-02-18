@@ -6,8 +6,11 @@
   <meta name="description" content="Echo — Never forget a good memory and smile every day. Your smiling companion app for iOS.">
   <title>Echo — Smiles in Mind</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/theme.js"></script>
 </head>
 <body>
+
+  <button class="theme-toggle" aria-label="Toggle theme"></button>
 
   <header class="container hero">
     <div class="hero-text">
@@ -19,7 +22,7 @@
       <p>Never forget a good memory and smile every day.</p>
       <a href="#" class="btn">Coming soon on iOS</a>
     </div>
-    <img src="images/echo-home-dark-fr.png" alt="Echo App Home screen" width="320">
+    <img src="images/echo-home-dark-fr.png" data-dark="images/echo-home-dark-fr.png" data-light="images/echo-home-light-fr.png" alt="Echo App Home screen" width="320">
   </header>
 
   <main>
@@ -30,19 +33,19 @@
 
         <div class="feature-grid">
           <article class="feature">
-            <img src="images/echo-add-memory-dark-fr.png" alt="Add a memory screen">
+            <img src="images/echo-add-memory-dark-fr.png" data-dark="images/echo-add-memory-dark-fr.png" data-light="images/echo-add-memory-light-fr.png" alt="Add a memory screen">
             <h3>Save it in seconds</h3>
             <p>One sentence is all it takes.</p>
           </article>
 
           <article class="feature">
-            <img src="images/echo-group-dark-fr.png" alt="Group screen">
+            <img src="images/echo-group-dark-fr.png" data-dark="images/echo-group-dark-fr.png" data-light="images/echo-group-light-fr.png" alt="Group screen">
             <h3>Keep it between us</h3>
             <p>Private groups for your closest circles.</p>
           </article>
 
           <article class="feature">
-            <img src="images/echo-profile-dark-fr.png" alt="Profile screen">
+            <img src="images/echo-profile-dark-fr.png" data-dark="images/echo-profile-dark-fr.png" data-light="images/echo-profile-light-fr.png" alt="Profile screen">
             <h3>Watch them grow</h3>
             <p>Your moments become a living story.</p>
           </article>
